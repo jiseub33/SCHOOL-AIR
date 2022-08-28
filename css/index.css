@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    padding: 25px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    background: linear-gradient(45deg, #013187, #004ed9);;
+}
+
+header > h1 {
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+}
+
+header > h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+}
+
+.boarding-pass {
+    padding: 25px 0 0 0;
+    position: relative;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+}
+
+.boarding-pass:after {clear: both;}
+.boarding-pass:after { content:""; display: block; clear: both;}
+
+
+.boarding-pass > .title{
+    float: left;
+}
+
+.boarding-pass > .date {
+    float: right;
+}
+
+img {
+    margin: 15px 0 0 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+section {
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.Information {
+    margin: 15px 0;
+}
+
+.Information > h1 {
+    padding: 0 0 0 2px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #013187;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+}
+
+.Information > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #013187;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+}
+
+.Information > h3 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #013187;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.Flight:after {clear: both;}
+
+.Flight:after { content:""; display: block; clear: both;}
+
+.Flight > .Information:nth-child(1) {
+    float: left;
+}
+.Flight > .Information:nth-child(2) {
+    float: right;
+}
+
+.Flight > .Information:nth-child(2) span {
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+footer {
+
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}

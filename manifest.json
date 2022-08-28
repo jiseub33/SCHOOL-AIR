@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "SCHOOL AIR LINE",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "SCHOOL AIR LINE",
+  "start_url": "/",
+  "theme_color": "#013187"
+  "icons": [
+    {
+      "src": "images\LOGO\LOGO.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ]
+}

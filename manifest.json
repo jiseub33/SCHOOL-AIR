@@ -10,7 +10,7 @@
   "theme_color": "#013187",
   "icons": [
     {
-      "src": "images\LOGO\LOGO.png",
+      "src": "images/LOGO/LOGO.png",
       "type": "image/png",
       "sizes": "500x500"
     }

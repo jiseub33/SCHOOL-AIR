@@ -18,7 +18,14 @@ header {
     border-radius: 10px;
     box-sizing: border-box;
     color: #fff;
-    background: linear-gradient(45deg, #013187, #004ed9);;
+    background: linear-gradient(45deg, #012057, #004ed9, #012057, #004ed9);
+    background-size: 400% 400%;
+    animation: ani1 10s infinite;
+}
+
+@keyframes ani1 {
+    0% {background-position: 0% 100%;}
+    100% {background-position: 85% 0%;}
 }
 
 header > h1 {

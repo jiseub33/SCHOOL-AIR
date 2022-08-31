@@ -6,11 +6,11 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "SCHOOL AIR LINE",
-  "start_url": "https://schoolair.navyalliance48.com/",
+  "start_url": "https://schoolair.navyalliance48.com/index-jung.html",
   "theme_color": "#013187",
   "icons": [
     {
-      "src": "images/LOGO/LOGO.png",
+      "src": "images/LOGO/LOGO-CHANGWON.png",
       "type": "image/png",
       "sizes": "500x500"
     }
